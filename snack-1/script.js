@@ -1,7 +1,6 @@
 const numbersEntered = []
+let userNumber = prompt('inserisci un numero')
 
 let numbersEnteredSum = 0
 
-let userNumber = prompt('inserisci un numero')
-
-while ()
+while (numbersEnteredSum < 50)
