@@ -1,5 +1,5 @@
-const listaNomi = ["mario", "maria", "gino", "ginetta", "paolo"]
-const listaCognomi = ["pietra", "sasso", "carta", "forbice", "falegname"]
+const listaNomi = ["mario", "maria", "gino", "ginetta", "paolo", "mario", "maria", "gino", "ginetta", "paolo"]
+const listaCognomi = ["pietra", "sasso", "carta", "forbice", "falegname", "pietra", "sasso", "carta", "forbice", "falegname"]
 
 let PersonaInvitata;
 
@@ -10,7 +10,7 @@ for (i=0; i<10; i++){
     let nomeInvitato = listaNomi[numRandom1]
     let cognomeInvitato = listaCognomi[numRandom2]
 
-    PersonaInvitata = nomeInvitato + cognomeInvitato
+    PersonaInvitata =`${nomeInvitato} ${cognomeInvitato}`
 
     console.log(`persona invitata: ${PersonaInvitata}`)
 }
