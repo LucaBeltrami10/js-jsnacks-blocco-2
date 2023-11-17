@@ -1,5 +1,7 @@
 const listaNomi = ["mario", "maria", "gino", "ginetta", "paolo", "mario", "maria", "gino", "ginetta", "paolo"]
-const listaCognomi = ["pietra", "sasso", "carta", "forbice", "falegname", "pietra", "sasso", "carta", "forbice", "falegname"]
+const listaCognomi = ["pietra", "sasso", "carta", "forbice", "falegname", "pietra", "sasso", "carta", "forbice",]
+
+console.log(listaNomi.length, listaCognomi.length)
 
 let PersonaInvitata;
 
