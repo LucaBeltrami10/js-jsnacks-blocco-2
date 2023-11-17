@@ -1,15 +1,12 @@
 const numbersEntered = []
-let userNumber = prompt('inserisci un numero')
+let userNumber = parseInt(prompt('inserisci un numero'))
 
 let numbersEnteredSum = 0
 
 while (numbersEnteredSum < 50){
     numbersEntered.push(userNumber)
     numbersEnteredSum += userNumber
-    console.log(numbersEntered)
-    userNumber = prompt('inserisci un nuovo numero')
-
-
+    userNumber = parseInt(prompt('inserisci un nuovo numero'))
 }
 
-console.log(numbersEntered)
+console.log(`i numeri inseriti nella lista sono: ${numbersEntered}`)
