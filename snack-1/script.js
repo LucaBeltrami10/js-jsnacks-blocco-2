@@ -5,11 +5,13 @@ console.log(`primo numero inserito ${userNumber}`)
 let numbersEnteredSum = 0
 
 while (numbersEnteredSum < 50){
-    userNumber = parseInt(prompt('inserisci un nuovo numero'))
-    console.log(`numero inserito ${userNumber}`)
-    numbersEntered.push(userNumber)
     numbersEnteredSum += userNumber
-    
+    numbersEntered.push(userNumber)
+    console.log(`numero inserito ${userNumber}`)
+    userNumber = parseInt(prompt('inserisci un nuovo numero'))
+    if(numbersEnteredSum > 50){
+        numbersEntered.pop()
+    }
 }
 
 console.log(`i numeri inseriti nella lista sono: ${numbersEntered}`)
