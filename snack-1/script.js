@@ -1,10 +1,12 @@
 const numbersEntered = []
 let userNumber = prompt('inserisci un numero')
 
-numbersEntered.push(userNumber)
+
+console.log(numbersEntered)
 
 let numbersEnteredSum = 0
 
 while (numbersEnteredSum < 50){
-
+    numbersEntered.push(userNumber)
+    
 }
