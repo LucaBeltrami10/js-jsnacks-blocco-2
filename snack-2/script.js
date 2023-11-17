@@ -4,8 +4,8 @@ const listaCognomi = ["pietra", "sasso", "carta", "forbice", "falegname", "pietr
 let PersonaInvitata;
 
 for (i=0; i<10; i++){
-    let numRandom1 = Math.floor(Math.random() * 10) * 1
-    let numRandom2 = Math.floor(Math.random() * 10) * 1
+    let numRandom1 = Math.floor(Math.random() * listaNomi.length) * 1
+    let numRandom2 = Math.floor(Math.random() * listaCognomi.length) * 1
 
     let nomeInvitato = listaNomi[numRandom1]
     let cognomeInvitato = listaCognomi[numRandom2]
