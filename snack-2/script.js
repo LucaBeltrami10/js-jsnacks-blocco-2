@@ -1,5 +1,5 @@
 const listaNomi = ["mario", "maria", "gino", "ginetta", "paolo", "sandro", "pino", "antò", "gianmaria", "pierpablo"]
-const listaCognomi = ["pietra", "sasso", "carta", "forbice", "falegname", "gianbruno", "amaratto", "hofame", "marimba",]
+const listaCognomi = ["pietra", "sasso", "carta", "forbice", "falegname", "gianbruno", "amaratto", "hofame", "marimba", "trapezio"]
 const numeroInvitati = 20
 
 console.log(listaNomi.length, listaCognomi.length)
