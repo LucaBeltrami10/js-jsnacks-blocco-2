@@ -8,6 +8,8 @@ function addParentAndChildText (tagParent, TagChild, TextChild){
     newParent.appendchild(newChild)
     /* inserisco testo in child */
     newChild.innerHTML = TextChild
+
+    return newParent
 }
 
 /* recupero il tag a cui aggiungere parent e child */
