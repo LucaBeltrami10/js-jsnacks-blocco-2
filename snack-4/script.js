@@ -1,5 +1,5 @@
 function firstIsDivisibleBySecond (numberA, numberB){
-    if (parseInt(numberA) % parseInt(numberB) == 0){
+    if (numberA % numberB == 0){
         return true
     }else{
         return false
