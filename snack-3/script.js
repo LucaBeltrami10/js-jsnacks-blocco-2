@@ -13,3 +13,7 @@ function whichOneIsLonger (firstWord, secondtWord){
         return console.log('le parole sono lunghe uguali')
     }
 }
+
+
+
+whichOneIsLonger;
