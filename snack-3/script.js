@@ -11,10 +11,10 @@ function whichOneIsLonger (firstWord, secondtWord){
     } else if (secondtWord.length > firstWord.length){
         return console.log(secondtWord)
     }else{
-        return console.log('le parole sono lunghe uguali')
+        return console.log(`${firstWord} ${secondtWord}`)
     }
 }
 
 
 
-whichOneIsLonger;
+console.log(whichOneIsLonger)
