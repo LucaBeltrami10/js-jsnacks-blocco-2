@@ -1,7 +1,11 @@
 function firstIsDivisibleBySecond (numberA, numberB){
+    if(numberA == numberB){
+        return `i numeri ${numberA} e ${numberB} sono uguali`
+    }
+
     if (numberA % numberB == 0){
         return true
-    }else{
+     } else{ 
         return false
     }
 }
