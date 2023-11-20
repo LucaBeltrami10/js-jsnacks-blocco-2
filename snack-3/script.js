@@ -2,6 +2,7 @@ const firstWord = prompt('inserisci una parola')
 const secondtWord = prompt('inserisci una parola')
 
 console.log(firstWord.length)
+console.log(secondtWord)
 
 function whichOneIsLonger (firstWord, secondtWord){
 
