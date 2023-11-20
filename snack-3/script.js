@@ -1,20 +1,19 @@
 const firstWord = prompt('inserisci una parola')
-const secondtWord = prompt('inserisci una parola')
+const secondWord = prompt('inserisci una parola')
 
 console.log(firstWord.length)
-console.log(secondtWord)
+console.log(secondWord.length)
 
-function whichOneIsLonger (firstWord, secondtWord){
+function whichOneIsLonger (wordA, wordB){
 
-    if (firstWord.length > secondtWord.length){
-        return console.log(firstWord)
-    } else if (secondtWord.length > firstWord.length){
-        return console.log(secondtWord)
+    if (wordA.length > wordB.length){
+        return wordA
+    } else if (wordB.length > wordA.length){
+        return wordB
     }else{
-        return console.log(`${firstWord} ${secondtWord}`)
+        return `${wordA} ${wordB}`
     }
 }
 
-
-
-console.log(whichOneIsLonger)
+let LongerWord = whichOneIsLonger(firstWord, secondWord)
+console.log(LongerWord)
