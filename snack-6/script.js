@@ -12,7 +12,7 @@ function addNumberOfChildToParent(numElements, parentId){
 
 
 /* chiedo all'utente un numero */
-const numberOfSquares = prompt('Inserisci quanti quadrati vuoi visualizzare')
+const numberOfSquares = parseInt(prompt('Inserisci quanti quadrati vuoi visualizzare'))
 
 /*  applico funzione*/
 
