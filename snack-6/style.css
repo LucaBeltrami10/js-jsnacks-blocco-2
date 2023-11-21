@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+width: 600px;
+height: 600px;
+background-color: black;
+}
+
+.quare-element{
+width: 20px;
+height: 20px;
+background-color: lightcoral;
+}
