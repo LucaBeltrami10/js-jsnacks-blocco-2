@@ -2,10 +2,10 @@
 function addNumberOfChildToParent(numElements, parentId){
 
     for (let i = 0 ; i < numElements ; i++){
-        let element = document.createElement(div)
-        element.classlist.add('square-element')
+        let element = document.createElement('div')
+        element.classList.add('square-element')
 
-        let parent = document.selectById(parentId)
+        let parent = document.getElementById(parentId)
         parent.appendChild(element)
     }
 }
@@ -14,4 +14,7 @@ function addNumberOfChildToParent(numElements, parentId){
 /* chiedo all'utente un numero */
 const numberOfSquares = prompt('Inserisci quanti quadrati vuoi visualizzare')
 
-/*  */
+/*  applico funzione*/
+
+addNumberOfChildToParent(numberOfSquares, 'square-container')
+
