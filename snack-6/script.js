@@ -5,7 +5,8 @@ function addNumberOfChildToParent(numElements, parentId){
         let element = document.createElement(div)
         element.classlist.add('square-element')
 
-        let parent = document.querySelector('div')
+        let parent = document.selectById(parentId)
+        parent.appendChild(element)
     }
 }
 
