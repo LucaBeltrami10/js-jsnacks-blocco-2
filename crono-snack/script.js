@@ -5,11 +5,11 @@ const tempo = document.getElementById('tempo')
 let tempoTrascorso = 0
 
 start.addEventListener('click', function(){
-    setInterval(addSecond, 100);
+    setInterval(addSecondInDecimali, 100, tempoTrascorso);
 })
 
 
-function addSecond(conteggioTempo){
+function addSecondInDecimali(conteggioTempo){
     conteggioTempo += 0.1
-    tempo.innerHTML = tempoTrascorso
+    console.log(conteggioTempo)
 }
