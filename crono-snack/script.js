@@ -5,10 +5,11 @@ const tempo = document.getElementById('tempo')
 let tempoTrascorso = 0
 
 start.addEventListener('click', function(){
-    setTimeout()
+    setInterval(addSecond, 100);
 })
 
 
 function addSecond(conteggioTempo){
     conteggioTempo += 0.1
+    tempo.innerHTML = tempoTrascorso
 }
