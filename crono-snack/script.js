@@ -1,11 +1,25 @@
-const start = document.getElementById('start')
-const stop = document.getElementById('stop')
+const starttime = document.getElementById('start')
+const stoptime = document.getElementById('stop')
 const tempo = document.getElementById('tempo')
 
+let timer = 0
+let clock 
+tempo.innerHTML = timer
 
 
+starttime.addEventListener('click', function(){
+    console.log('start timer')
 
+    clock= setInterval(function(){
+        timer = parseInt(timer, 10) + 1;
+        tempo.innerHTML = timer;
+    }, 1000)
+})
 
+stoptime.addEventListener('click', function(){
+    clock = clearInterval(clock)
+    console.log('stop timer')
+})
 
 
 
