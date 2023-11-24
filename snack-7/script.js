@@ -40,3 +40,7 @@ const zucchine = [
     'lunghezza' : '10'
     }
 ]
+
+for ( let i = 0; i < zucchine.length; i++){
+    
+}
