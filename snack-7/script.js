@@ -41,6 +41,11 @@ const zucchine = [
     }
 ]
 
+let pesoTotaleZucchine = 0
+
 for ( let i = 0; i < zucchine.length; i++){
-    
+    pesoTotaleZucchine += zucchine[i].peso
+
 }
+
+console.log(pesoTotaleZucchine)
