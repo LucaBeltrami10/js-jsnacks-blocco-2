@@ -44,8 +44,8 @@ const zucchine = [
 let pesoTotaleZucchine = 0
 
 for ( let i = 0; i < zucchine.length; i++){
+    console.log(`la varietà: ${zucchine[i].varietà}, lunga: ${zucchine[i].lunghezza}, PESA : ${zucchine[i].peso}`)
     pesoTotaleZucchine += parseInt(zucchine[i].peso)
-
 }
 
 console.log(pesoTotaleZucchine)
