@@ -1,3 +1,5 @@
+/* Crea 10 oggetti che rappresentano una zucchina, indicandone per ognuno varietà, peso e lunghezza. Calcola quanto pesano tutte le zucchine. */
+
 const zucchine = [
     {'varietà' : 'Nera',
     'peso' : '1',
@@ -44,7 +46,7 @@ const zucchine = [
 let pesoTotaleZucchine = 0
 
 for ( let i = 0; i < zucchine.length; i++){
-    console.log(`la varietà: ${zucchine[i].varietà}, lunga: ${zucchine[i].lunghezza}cm, PESA : ${zucchine[i].peso}kg`)
+    console.log(`La varietà: ${zucchine[i].varietà}, lunga: ${zucchine[i].lunghezza}cm, PESA : ${zucchine[i].peso}kg`)
     pesoTotaleZucchine += parseInt(zucchine[i].peso)
 }
 
