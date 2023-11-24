@@ -1,41 +1,41 @@
 const zucchine = [
-    {'varietà' : 'nera',
+    {'varietà' : 'Nera',
     'peso' : '1',
     'lunghezza' : '50'
     },
-    {'varietà' : 'romanesca',
+    {'varietà' : 'Romanesca',
     'peso' : '0.3',
     'lunghezza' : '12'
     },
-    {'varietà' : 'fiorentina',
+    {'varietà' : 'Fiorentina',
     'peso' : '0.6',
     'lunghezza' : '10'
     },
-    {'varietà' : 'napoletana',
+    {'varietà' : 'Napoletana',
     'peso' : '0.2',
     'lunghezza' : '17'
     },
-    {'varietà' : 'tonda',
+    {'varietà' : 'Tonda',
     'peso' : '0.6',
     'lunghezza' : '5'
     },
-    {'varietà' : 'trombetta',
+    {'varietà' : 'Trombetta',
     'peso' : '0.8',
     'lunghezza' : '18'
     },
-    {'varietà' : 'gialla',
+    {'varietà' : 'Gialla',
     'peso' : '0.9',
     'lunghezza' : '15'
     },
-    {'varietà' : 'rugosa friulana',
+    {'varietà' : 'Rugosa friulana',
     'peso' : '1.1',
     'lunghezza' : '14'
     },
-    {'varietà' : 'patisson',
+    {'varietà' : 'Patisson',
     'peso' : '2',
     'lunghezza' : '30'
     },
-    {'varietà' : 'crookneck',
+    {'varietà' : 'Crookneck',
     'peso' : '0.5',
     'lunghezza' : '10'
     }
@@ -44,7 +44,7 @@ const zucchine = [
 let pesoTotaleZucchine = 0
 
 for ( let i = 0; i < zucchine.length; i++){
-    console.log(`la varietà: ${zucchine[i].varietà}, lunga: ${zucchine[i].lunghezza}, PESA : ${zucchine[i].peso}`)
+    console.log(`la varietà: ${zucchine[i].varietà}, lunga: ${zucchine[i].lunghezza}cm, PESA : ${zucchine[i].peso}kg`)
     pesoTotaleZucchine += parseInt(zucchine[i].peso)
 }
 
